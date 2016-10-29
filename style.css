@@ -1,0 +1,45 @@
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    background: #003366;
+    opacity: 0.9;
+}
+
+h1 {
+    color: #fff;
+    font-weight: bold;
+}
+
+#location {
+    color: #fff;
+    font-size: 24px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+
+#icon img {
+    height: 250%;
+    width: 250%;
+}
+
+#temp {
+    font-weight: bold;
+    font-size: 36px;
+    color: #66ccff;
+    width: 30px;
+}
+
+#temp:hover {
+    color: #ff5c33;
+}
+
+#windSpeed {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#conditions {
+    font-weight: bold;
+    font-size: 24px;
+    color: #66ccff;
+
+}

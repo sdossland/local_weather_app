@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Local Weather App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="logic.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="weatherContainer">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-8">
+            <h1>Current Weather Report</h1>
+            <div id="location">
+                <img src="http://www.ajaxload.info/cache/FF/FF/FF/29/C3/84/5-0.gif"/>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-5">
+            <div class="pull-right">
+                <div id="icon">
+                    <img />
+                </div>
+            </div>
+        </div>
+        <div class="col-md-1"></div>
+        <div class="col-md-6">
+            <div id="temp"></div>
+            <div id="windSpeed"></div>
+            <div id="conditions"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
